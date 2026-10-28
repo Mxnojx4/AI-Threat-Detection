@@ -29,10 +29,10 @@ AI-powered threat detection engine that analyzes nginx access logs using a 3-mod
 ## Quick Start
 
 ```bash
-git clone https://github.com/CarterPerez-dev/Cybersecurity-Projects.git
-cd PROJECTS/advanced/ai-threat-detection
+git clone https://github.com/Mxnojx4/AI-Threat-Detection.git
+cd AI-Threat-Detection
 cp .env.example .env
-docker compose -f dev.compose.yml up -d
+docker compose up -d
 First startup takes ~2 minutes while models train. Visit http://localhost:46969 for the dashboard once healthy.
 
 Note: This project uses just as a command runner. Type just to see all available commands.
